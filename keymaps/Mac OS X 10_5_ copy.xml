@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta J" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="meta Q" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="meta K" />
+  </action>
+  <action id="CheckinProject" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift meta alt BACK_SLASH" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="shift meta BACK_SLASH" />
+  </action>
+  <action id="Console.History.BrowseTW" />
+  <action id="Console.TableResult.AddRow">
+    <keyboard-shortcut first-keystroke="control ENTER" />
+  </action>
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="shift meta J" />
+  </action>
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="shift meta alt J" />
+  </action>
+  <action id="DatabaseView.AddAction">
+    <keyboard-shortcut first-keystroke="control ENTER" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="control E" />
+  </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta J" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="meta Q" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="meta K" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="meta E" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="END" />
+    <keyboard-shortcut first-keystroke="meta RIGHT" />
+  </action>
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift meta alt K" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="UP" />
+  </action>
+  <action id="Exit" />
+  <action id="FileChooser.NewFolder" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="control ENTER" />
+  </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta N" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta N" />
+  </action>
+  <action id="GotoRelated" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta alt N" />
+  </action>
+  <action id="Inline" />
+  <action id="InsertLiveTemplate" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="control meta DOWN" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="control meta UP" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="control meta alt DOWN" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="control meta alt UP" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="control ENTER" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift meta K" />
+  </action>
+  <action id="RecentFiles" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="alt ESCAPE" second-keystroke="U" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta P" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta P" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="control P" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="control M" />
+  </action>
+</keymap>
+
