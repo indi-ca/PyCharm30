@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<keymap version="1" name="OSX-Pycharm-Frictionless" parent="$default">
+<keymap version="1" name="OSX-Pycharm-Frictionless" parent="Mac OS X 10.5+">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="meta J" />
   </action>
