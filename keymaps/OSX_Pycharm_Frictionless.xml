@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<keymap version="1" name="OSX-Pycharm-Frictionless" parent="Mac OS X 10.5+">
+<keymap version="1" name="OSX-Pycharm-Frictionless" parent="$default">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="meta J" />
   </action>
@@ -57,7 +57,9 @@
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="shift meta alt K" />
   </action>
-  <action id="EditorToggleCase" />
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="meta alt Y" />
+  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="UP" />
   </action>
