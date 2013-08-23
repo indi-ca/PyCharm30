@@ -69,7 +69,9 @@
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta U" />
   </action>
-  <action id="FindInPath" />
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="meta alt U" />
+  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="meta I" />
   </action>
@@ -118,16 +120,17 @@
   </action>
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="meta alt U" />
-  </action>
+  <action id="ReformatCode" />
   <action id="Replace">
     <keyboard-shortcut first-keystroke="shift meta U" />
   </action>
-  <action id="ReplaceInPath" />
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta alt U" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="control V" />
   </action>
+  <action id="ShowUmlDiagram" />
   <action id="ShowUmlDiagramPopup" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta alt 2" />
