@@ -55,6 +55,8 @@ class Remap:
             last_modified_time = mtime(last_modified_file)
             last_access_time = atime(last_modified_file)
 
+            #TODO: Windows transalation
+
             # So, is this the Windows file or the OSX file?
             if last_modified_file == self.sublime_win_file:
                 self.regenerate_osx(last_access_time, last_modified_time)
