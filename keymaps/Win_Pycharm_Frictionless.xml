@@ -23,7 +23,6 @@
   <action id="Console.TableResult.AddRow">
     <keyboard-shortcut first-keystroke="meta ENTER" />
   </action>
-  <action id="Console.TableResult.Reload" />
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="shift control J" />
   </action>
@@ -84,7 +83,6 @@
   </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="control P" />
-    <keyboard-shortcut first-keystroke="control R" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift control P" />
@@ -135,19 +133,19 @@
     <keyboard-shortcut first-keystroke="control alt 2" />
   </action>
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+    <keyboard-shortcut first-keystroke="meta alt ENTER" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="meta alt DOWN" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="meta alt UP" />
   </action>
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="control alt 1" />
