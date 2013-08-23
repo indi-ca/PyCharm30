@@ -69,9 +69,7 @@
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta U" />
   </action>
-  <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="shift meta U" />
-  </action>
+  <action id="FindInPath" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="meta I" />
   </action>
@@ -123,7 +121,9 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt U" />
   </action>
-  <action id="Replace" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="shift meta U" />
+  </action>
   <action id="ReplaceInPath" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="control V" />
