@@ -51,7 +51,7 @@ class Remap:
         if abs(t1 - t2) < 0.01:
             logger.info('Both files are timestamp equal')
         else:
-            logger.info('Files are different')
+            logger.info('The last modified file is: {0}'.format(last_modified_file))
             last_modified_time = mtime(last_modified_file)
             last_access_time = atime(last_modified_file)
 
