@@ -97,19 +97,19 @@
   <action id="InsertLiveTemplate" />
   <action id="IntroduceParameter" />
   <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="meta control alt RIGHT" />
+    <keyboard-shortcut first-keystroke="control meta alt RIGHT" />
   </action>
   <action id="MoveLineDown">
-    <keyboard-shortcut first-keystroke="meta control DOWN" />
+    <keyboard-shortcut first-keystroke="control meta DOWN" />
   </action>
   <action id="MoveLineUp">
-    <keyboard-shortcut first-keystroke="meta control UP" />
+    <keyboard-shortcut first-keystroke="control meta UP" />
   </action>
   <action id="MoveStatementDown">
-    <keyboard-shortcut first-keystroke="meta control alt DOWN" />
+    <keyboard-shortcut first-keystroke="control meta alt DOWN" />
   </action>
   <action id="MoveStatementUp">
-    <keyboard-shortcut first-keystroke="meta control alt UP" />
+    <keyboard-shortcut first-keystroke="control meta alt UP" />
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta ENTER" />
@@ -133,19 +133,19 @@
     <keyboard-shortcut first-keystroke="control alt 2" />
   </action>
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="meta alt ENTER" />
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="meta alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="meta alt LEFT" />
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="meta alt UP" />
+    <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="control alt 1" />
