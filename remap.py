@@ -48,7 +48,7 @@ class Remap:
         logger.debug('Last modified time: {0}'.format(t1))
         logger.debug('Second Last modified time: {0}'.format(t2))
 
-        if abs(t1 - t2) < 0.1:
+        if abs(t1 - t2) < 0.01:
             logger.info('Both files are timestamp equal')
         else:
             last_modified_time = mtime(last_modified_file)
