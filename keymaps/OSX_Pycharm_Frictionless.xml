@@ -97,19 +97,19 @@
   <action id="InsertLiveTemplate" />
   <action id="IntroduceParameter" />
   <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="control meta alt RIGHT" />
+    <keyboard-shortcut first-keystroke="meta control alt RIGHT" />
   </action>
   <action id="MoveLineDown">
-    <keyboard-shortcut first-keystroke="control meta DOWN" />
+    <keyboard-shortcut first-keystroke="meta control DOWN" />
   </action>
   <action id="MoveLineUp">
-    <keyboard-shortcut first-keystroke="control meta UP" />
+    <keyboard-shortcut first-keystroke="meta control UP" />
   </action>
   <action id="MoveStatementDown">
-    <keyboard-shortcut first-keystroke="control meta alt DOWN" />
+    <keyboard-shortcut first-keystroke="meta control alt DOWN" />
   </action>
   <action id="MoveStatementUp">
-    <keyboard-shortcut first-keystroke="control meta alt UP" />
+    <keyboard-shortcut first-keystroke="meta control alt UP" />
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="control ENTER" />
