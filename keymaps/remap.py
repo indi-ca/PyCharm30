@@ -2,17 +2,16 @@
 
 """Remap
 
-Remaps Sublime keymap files between OSX and Windows
-
-
+Remaps Python keyboard mapping files between OSX and Windows
 
 """
 
 __author__ = "Indika Piyasena"
 
-import os, sys, glob
+import os
+import sys
+import glob
 import logging
-import fileinput
 
 logger = logging.getLogger(__name__)
 
@@ -53,9 +52,13 @@ class Remap:
         last_access_time = atime(last_modified_file)
 
         if sys.platform == "win32":
+            logger.info('Detected Windows environment')
             self.regenerate_osx(last_access_time, last_modified_time)
-        else:
+        elif sys.platform == 'darwin':
+            logger.info('Detected OSX environment')
             self.regenerate_windows(last_access_time, last_modified_time)
+        else:
+            logger.error('Unhandled platform: {0}'.format(sys.platform))
         pass
 
     def regenerate_windows(self, with_access_timestamp,
@@ -114,5 +117,5 @@ class Remap:
 
 if __name__ == "__main__":
     print "Running Remap in stand-alone-mode"
-    wizardry = Remap()
-    wizardry.process()
+    remap = Remap()
+    remap.process()
