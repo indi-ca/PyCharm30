@@ -26,8 +26,8 @@ def atime(filename):
 class Remap:
     def __init__(self):
         self.configure_logging()
-        self.win_file = 'Win_VIM_Pycharm_Frictionless.xml'
-        self.osx_file = 'OSX_VIM_Pycharm_Frictionless.xml'
+        self.win_file = 'Win_Pycharm_Frictionless.xml'
+        self.osx_file = 'OSX_Pycharm_Frictionless.xml'
 
     def process(self):
         self.last_file_updated()
