@@ -1,7 +1,8 @@
-CVS
 org.jetbrains.plugins.python-localization
-PerforceDirectPlugin
+org.jetbrains.plugins.haml
 Subversion
-org.jetbrains.plugins.localization
-org.jetbrains.plugins.flask
 hg4idea
+PerforceDirectPlugin
+org.jetbrains.plugins.localization
+CVS
+org.jetbrains.plugins.flask
