@@ -27,10 +27,7 @@ logger = logging.getLogger(__name__)
 
 class Translate:
     def __init__(self):
-        self.configure_logging()
-
-        self.data = []
-        self.cache_file = 'pickled.data'
+        pass
 
     def map_keyboard(self, key, reverse=False):
         """
@@ -45,6 +42,8 @@ class Translate:
             return self.search(fmap, key)
 
     def process(self):
+        self.configure_logging()
+
         global ret
         arguments = docopt(__doc__, version='Translate 0.1')
         logger.info('Translate started...')
