@@ -59,6 +59,9 @@
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta K" />
   </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="meta E" />
+  </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="END" />
     <keyboard-shortcut first-keystroke="meta RIGHT" />
@@ -73,10 +76,6 @@
     <keyboard-shortcut first-keystroke="UP" />
   </action>
   <action id="Exit" />
-  <action id="ExtractMethod">
-    <keyboard-shortcut first-keystroke="meta alt M" />
-    <keyboard-shortcut first-keystroke="meta E" second-keystroke="meta M" />
-  </action>
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="Find">
