@@ -15,6 +15,7 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta OPEN_BRACKET" />
     <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="control meta LEFT" />
   </action>
   <action id="CheckinProject" />
   <action id="CommentByBlockComment">
@@ -48,6 +49,9 @@
   <action id="DatabaseView.ShowDiff" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="Diff.SelectedChange">
+    <keyboard-shortcut first-keystroke="meta O" />
   </action>
   <action id="Diff.UpdatedFiles" />
   <action id="Editor Copy">
@@ -93,15 +97,16 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta CLOSE_BRACKET" />
     <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="control meta RIGHT" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="control ENTER" />
   </action>
   <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="meta P" />
+    <keyboard-shortcut first-keystroke="shift meta P" />
   </action>
   <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="shift meta P" />
+    <keyboard-shortcut first-keystroke="meta P" />
   </action>
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="meta alt button1" />
@@ -167,6 +172,9 @@
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta alt U" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="control meta E" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="control V" />
