@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="Win-Pycharm-Frictionless" parent="$default">
   <action id="$Copy">
-    <keyboard-shortcut first-keystroke="control C" />
+    <keyboard-shortcut first-keystroke="control J" />
   </action>
   <action id="$Cut">
-    <keyboard-shortcut first-keystroke="control X" />
+    <keyboard-shortcut first-keystroke="control Q" />
   </action>
   <action id="$Paste">
-    <keyboard-shortcut first-keystroke="control V" />
+    <keyboard-shortcut first-keystroke="control K" />
   </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="shift control E" />
@@ -27,6 +27,12 @@
   <action id="Console.TableResult.AddRow">
     <keyboard-shortcut first-keystroke="meta ENTER" />
   </action>
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="shift control J" />
+  </action>
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="shift control alt J" />
+  </action>
   <action id="Coverage">
     <keyboard-shortcut first-keystroke="shift meta V" />
   </action>
@@ -37,13 +43,13 @@
     <keyboard-shortcut first-keystroke="meta W" />
   </action>
   <action id="Editor Copy">
-    <keyboard-shortcut first-keystroke="control C" />
+    <keyboard-shortcut first-keystroke="control J" />
   </action>
   <action id="Editor Cut">
-    <keyboard-shortcut first-keystroke="control X" />
+    <keyboard-shortcut first-keystroke="control Q" />
   </action>
   <action id="Editor Paste">
-    <keyboard-shortcut first-keystroke="control V" />
+    <keyboard-shortcut first-keystroke="control K" />
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="control E" />
@@ -51,6 +57,9 @@
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="END" />
     <keyboard-shortcut first-keystroke="control RIGHT" />
+  </action>
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift control alt K" />
   </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="control alt Y" />
@@ -127,7 +136,7 @@
   </action>
   <action id="ParameterInfo" />
   <action id="PasteMultiple">
-    <keyboard-shortcut first-keystroke="shift control V" />
+    <keyboard-shortcut first-keystroke="shift control K" />
   </action>
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt TAB" />

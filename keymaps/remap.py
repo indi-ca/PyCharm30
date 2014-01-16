@@ -4,6 +4,15 @@
 
 Remaps Python keyboard mapping files between OSX and Windows
 
+Usage:
+   remap.py
+   remap.py to_osx
+   remap.py to_windows
+
+Options:
+    -h --help     Show this screen.
+    --version     Show version.
+
 """
 
 __author__ = "Indika Piyasena"
@@ -12,6 +21,7 @@ import os
 import sys
 import glob
 import logging
+from docopt import docopt
 
 logger = logging.getLogger(__name__)
 
@@ -30,6 +40,18 @@ class Remap:
         self.osx_file = 'OSX_Pycharm_Frictionless.xml'
 
     def process(self):
+        self.arguments = docopt(__doc__, version='Remap 0.1')
+        if self.arguments['to_osx']:
+            logger.info('Converting Windows -> OSX')
+        elif self.arguments['to_windows']:
+            logger.info('Converting OSX -> Windows')
+            # set the windows file timestamp to the osx one
+            last_modified_time = mtime(self.osx_file)
+            last_access_time = atime(self.osx_file)
+            self.regenerate_windows(last_access_time, last_modified_time)
+        else:
+            logger.info('Determining translation path from date modified...')
+        return
         self.last_file_updated()
         pass
 
@@ -102,6 +124,13 @@ class Remap:
 
         os.utime(self.osx_file,
                  (with_access_timestamp, with_modified_timestamp))
+
+
+    def change_keys(self):
+        #first start with finding all the appropriate occurences in the file
+
+
+        pass
 
     def configure_logging(self):
         logger.setLevel(logging.DEBUG)
