@@ -6,8 +6,8 @@ Remaps Python keyboard mapping files between OSX and Windows
 
 Usage:
    remap.py
-   remap.py to_osx
-   remap.py to_windows
+   remap.py to_osx <osx_file> <win_file>
+   remap.py to_windows <osx_file> <win_file>
 
 Options:
     -h --help     Show this screen.
@@ -43,27 +43,18 @@ class Remap:
         self.osx_file = 'OSX_Pycharm_Frictionless.xml'
         self.keyboard_mapper = MapKeyboardLayoutFile()
 
-    def _convert(self, source_file, target_file):
-        self.keyboard_mapper.convert_to_windows(source_file, target_file)
-        os.utime(target_file, (atime(source_file), mtime(source_file)))
-
-    def convert_to_windows(self):
-        logger.info('Converting OSX -> Windows')
-        source_file = self.osx_file
-        target_file = self.win_file
-        self._convert(source_file, target_file)
-
-    def convert_to_osx(self):
-        logger.info('Converting Windows -> OSX')
-        source_file = self.win_file
-        target_file = self.osx_file
-        self._convert(source_file, target_file)
-
     def process(self):
         arguments = docopt(__doc__, version='Remap 0.1')
 
+        self.win_file = arguments['<win_file>']
+        self.osx_file = arguments['<osx_file>']
+
+        logger.info('Using Windows file: {0}'.format(self.win_file))
+        logger.info('Using OSX file: {0}'.format(self.osx_file))
+
         if arguments['to_osx']:
             self.convert_to_osx()
+
         elif arguments['to_windows']:
             self.convert_to_windows()
 
@@ -72,6 +63,20 @@ class Remap:
         return
         self.last_file_updated()
         pass
+
+    def convert_to_windows(self):
+        logger.info('Converting OSX -> Windows')
+        source_file = self.osx_file
+        target_file = self.win_file
+        self.keyboard_mapper.convert_to_windows(source_file, target_file)
+        os.utime(target_file, (atime(source_file), mtime(source_file)))
+
+    def convert_to_osx(self):
+        logger.info('Converting Windows -> OSX')
+        source_file = self.win_file
+        target_file = self.osx_file
+        self.keyboard_mapper.convert_to_osx(source_file, target_file)
+        os.utime(target_file, (atime(source_file), mtime(source_file)))
 
     def last_file_updated(self):
         query = '*.xml'
