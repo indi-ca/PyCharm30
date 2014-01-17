@@ -88,6 +88,21 @@
     <keyboard-shortcut first-keystroke="control alt L" />
     <keyboard-shortcut first-keystroke="control alt R" />
   </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="control meta alt RIGHT" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="control meta DOWN" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="control meta UP" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="control meta alt DOWN" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="control meta alt UP" />
+  </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt TAB" />
     <keyboard-shortcut first-keystroke="shift control alt RIGHT" />
@@ -108,9 +123,7 @@
   </action>
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="control K" second-keystroke="control F" />
-  </action>
+  <action id="ReformatCode" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift F6" />
     <keyboard-shortcut first-keystroke="control alt N" />
@@ -126,11 +139,29 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="control alt 2" />
   </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="control alt 1" />
   </action>
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="control M" />
+  </action>
   <action id="Vcs.UpdateProject" />
 </keymap>
 
