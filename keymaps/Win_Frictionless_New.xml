@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Win-Frictionless-New" parent="$default">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="control X" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="control V" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+</keymap>
+
