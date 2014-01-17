@@ -23,11 +23,18 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="control BACK_SLASH" />
   </action>
+  <action id="Console.History.BrowseTW" />
+  <action id="Console.TableResult.AddRow">
+    <keyboard-shortcut first-keystroke="meta ENTER" />
+  </action>
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="shift control C" />
   </action>
   <action id="CopyReference">
     <keyboard-shortcut first-keystroke="shift control alt C" />
+  </action>
+  <action id="DatabaseView.AddAction">
+    <keyboard-shortcut first-keystroke="meta ENTER" />
   </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="control C" />
@@ -73,6 +80,9 @@
     <keyboard-shortcut first-keystroke="control CLOSE_BRACKET" />
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="meta ENTER" />
+  </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="control R" />
   </action>
@@ -88,6 +98,11 @@
     <keyboard-shortcut first-keystroke="control alt L" />
     <keyboard-shortcut first-keystroke="control alt R" />
   </action>
+  <action id="HtmlTableCellNavigateLeft" />
+  <action id="HtmlTableCellNavigateRight" />
+  <action id="Inline" />
+  <action id="InsertLiveTemplate" />
+  <action id="IntroduceParameter" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="control meta alt RIGHT" />
   </action>
@@ -102,6 +117,9 @@
   </action>
   <action id="MoveStatementUp">
     <keyboard-shortcut first-keystroke="control meta alt UP" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="meta ENTER" />
   </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt TAB" />
@@ -123,7 +141,9 @@
   </action>
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
-  <action id="ReformatCode" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="control K" second-keystroke="control F" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift F6" />
     <keyboard-shortcut first-keystroke="control alt N" />
@@ -140,19 +160,19 @@
     <keyboard-shortcut first-keystroke="control alt 2" />
   </action>
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+    <keyboard-shortcut first-keystroke="meta alt ENTER" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="meta alt DOWN" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="meta alt UP" />
   </action>
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="control alt 1" />
@@ -160,7 +180,7 @@
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.ShowMessageHistory">
-    <keyboard-shortcut first-keystroke="control M" />
+    <keyboard-shortcut first-keystroke="meta M" />
   </action>
   <action id="Vcs.UpdateProject" />
 </keymap>
