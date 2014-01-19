@@ -23,6 +23,7 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta BACK_SLASH" />
   </action>
+  <action id="Console.History.Browse" />
   <action id="Console.History.BrowseTW" />
   <action id="Console.TableResult.AddRow">
     <keyboard-shortcut first-keystroke="control ENTER" />
@@ -103,20 +104,21 @@
   <action id="Inline" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceParameter" />
+  <action id="IntroduceVariable" />
   <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="meta control alt RIGHT" />
+    <keyboard-shortcut first-keystroke="control meta alt RIGHT" />
   </action>
   <action id="MoveLineDown">
-    <keyboard-shortcut first-keystroke="meta control DOWN" />
+    <keyboard-shortcut first-keystroke="control meta DOWN" />
   </action>
   <action id="MoveLineUp">
-    <keyboard-shortcut first-keystroke="meta control UP" />
+    <keyboard-shortcut first-keystroke="control meta UP" />
   </action>
   <action id="MoveStatementDown">
-    <keyboard-shortcut first-keystroke="meta control alt DOWN" />
+    <keyboard-shortcut first-keystroke="control meta alt DOWN" />
   </action>
   <action id="MoveStatementUp">
-    <keyboard-shortcut first-keystroke="meta control alt UP" />
+    <keyboard-shortcut first-keystroke="control meta alt UP" />
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="control ENTER" />
@@ -153,6 +155,12 @@
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta alt U" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="meta alt E" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta alt V" />
   </action>
   <action id="ShowUmlDiagram" />
   <action id="ShowUmlDiagramPopup" />

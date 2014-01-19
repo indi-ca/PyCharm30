@@ -16,6 +16,8 @@ class $COMPONENT_NAME:
 
 class ${COMPONENT_NAME}TestCase(unittest.TestCase):
     def test_something(self):
+        library = $COMPONENT_NAME()
+        library.process()    
         self.assertEqual(True, False)
 
 if __name__ == '__main__':
