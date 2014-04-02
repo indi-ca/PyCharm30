@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<keymap version="1" name="OSX-Pycharm-Frictionless" parent="Mac OS X 10.5+">
+<keymap version="1" name="Vim" parent="Mac OS X 10.5+">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="meta J" />
   </action>
@@ -18,6 +18,12 @@
     <mouse-shortcut keystroke="button4" />
   </action>
   <action id="CheckinProject" />
+  <action id="ClassNameCompletion">
+    <keyboard-shortcut first-keystroke="shift control alt SPACE" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="control meta SPACE" />
+  </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift meta BACK_SLASH" />
   </action>
@@ -54,15 +60,37 @@
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta K" />
   </action>
+  <action id="EditorCutLineEnd">
+    <keyboard-shortcut first-keystroke="control alt K" />
+  </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="meta E" />
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="LEFT" />
+  </action>
+  <action id="EditorLeftWithSelection">
+    <keyboard-shortcut first-keystroke="shift control alt LEFT" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="END" />
     <keyboard-shortcut first-keystroke="meta RIGHT" />
   </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="HOME" />
+    <keyboard-shortcut first-keystroke="meta LEFT" />
+  </action>
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="shift meta alt K" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="RIGHT" />
+  </action>
+  <action id="EditorRightWithSelection">
+    <keyboard-shortcut first-keystroke="shift control alt RIGHT" />
   </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="meta alt Y" />
@@ -70,7 +98,13 @@
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="UP" />
   </action>
+  <action id="EditorUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
   <action id="Exit" />
+  <action id="ExportToTextFile">
+    <keyboard-shortcut first-keystroke="shift control O" />
+  </action>
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="meta alt M" />
     <keyboard-shortcut first-keystroke="shift meta E" second-keystroke="M" />
@@ -100,6 +134,9 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="control ENTER" />
   </action>
+  <action id="GotoBookmark2">
+    <keyboard-shortcut first-keystroke="control alt 2" />
+  </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="meta P" />
   </action>
@@ -121,6 +158,9 @@
   </action>
   <action id="HtmlTableCellNavigateLeft" />
   <action id="HtmlTableCellNavigateRight" />
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="shift control I" />
+  </action>
   <action id="Inline" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceParameter" />
@@ -154,6 +194,9 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="shift control O" />
+  </action>
   <action id="ParameterInfo" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift meta K" />
@@ -168,8 +211,15 @@
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt SPACE" />
   </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="F1" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="control alt T" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta T" second-keystroke="meta U" />
   </action>
@@ -191,6 +241,9 @@
   </action>
   <action id="ShowUmlDiagram" />
   <action id="ShowUmlDiagramPopup" />
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="shift control alt SPACE" />
+  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta alt 2" />
   </action>
@@ -209,8 +262,10 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="control alt UP" />
   </action>
+  <action id="ToggleBookmark2">
+    <keyboard-shortcut first-keystroke="shift control alt 2" />
+  </action>
   <action id="TypeHierarchy">
-    <keyboard-shortcut first-keystroke="control H" />
     <keyboard-shortcut first-keystroke="meta B" second-keystroke="Y" />
   </action>
   <action id="TypeHierarchy.Class">
@@ -223,9 +278,58 @@
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.ShowMessageHistory">
-    <keyboard-shortcut first-keystroke="control M" />
+    <keyboard-shortcut first-keystroke="control alt M" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="VimKeyHandler">
+    <keyboard-shortcut first-keystroke="control 2" />
+    <keyboard-shortcut first-keystroke="control A" />
+    <keyboard-shortcut first-keystroke="control alt SPACE" />
+    <keyboard-shortcut first-keystroke="control B" />
+    <keyboard-shortcut first-keystroke="control BACK_SLASH" />
+    <keyboard-shortcut first-keystroke="control C" />
+    <keyboard-shortcut first-keystroke="control CLOSE_BRACKET" />
+    <keyboard-shortcut first-keystroke="control D" />
+    <keyboard-shortcut first-keystroke="control E" />
+    <keyboard-shortcut first-keystroke="control END" />
+    <keyboard-shortcut first-keystroke="control F" />
+    <keyboard-shortcut first-keystroke="control G" />
+    <keyboard-shortcut first-keystroke="control H" />
+    <keyboard-shortcut first-keystroke="control HOME" />
+    <keyboard-shortcut first-keystroke="control I" />
+    <keyboard-shortcut first-keystroke="control J" />
+    <keyboard-shortcut first-keystroke="control K" />
+    <keyboard-shortcut first-keystroke="control L" />
+    <keyboard-shortcut first-keystroke="control LEFT" />
+    <keyboard-shortcut first-keystroke="control M" />
+    <keyboard-shortcut first-keystroke="control O" />
+    <keyboard-shortcut first-keystroke="control OPEN_BRACKET" />
+    <keyboard-shortcut first-keystroke="control P" />
+    <keyboard-shortcut first-keystroke="control PAGE_DOWN" />
+    <keyboard-shortcut first-keystroke="control PAGE_UP" />
+    <keyboard-shortcut first-keystroke="control Q" />
+    <keyboard-shortcut first-keystroke="control R" />
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+    <keyboard-shortcut first-keystroke="control S" />
+    <keyboard-shortcut first-keystroke="control SPACE" />
+    <keyboard-shortcut first-keystroke="control T" />
+    <keyboard-shortcut first-keystroke="control U" />
+    <keyboard-shortcut first-keystroke="control V" />
+    <keyboard-shortcut first-keystroke="control W" />
+    <keyboard-shortcut first-keystroke="control X" />
+    <keyboard-shortcut first-keystroke="control Y" />
+    <keyboard-shortcut first-keystroke="control Z" />
+    <keyboard-shortcut first-keystroke="KP_DOWN" />
+    <keyboard-shortcut first-keystroke="KP_LEFT" />
+    <keyboard-shortcut first-keystroke="KP_RIGHT" />
+    <keyboard-shortcut first-keystroke="KP_UP" />
+    <keyboard-shortcut first-keystroke="shift control 2" />
+    <keyboard-shortcut first-keystroke="shift control SPACE" />
+    <keyboard-shortcut first-keystroke="shift DOWN" />
+    <keyboard-shortcut first-keystroke="shift LEFT" />
+    <keyboard-shortcut first-keystroke="shift RIGHT" />
+    <keyboard-shortcut first-keystroke="shift UP" />
+  </action>
   <action id="org.jetbrains.plugins.terminal.OpenLocalTerminalAction">
     <keyboard-shortcut first-keystroke="meta Y" />
   </action>

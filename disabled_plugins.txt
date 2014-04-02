@@ -1,9 +1,8 @@
-IdeaVIM
-org.jetbrains.plugins.flask
 PerforceDirectPlugin
-Subversion
-org.jetbrains.plugins.python-localization
 org.jetbrains.plugins.localization
-org.jetbrains.plugins.haml
+org.jetbrains.plugins.python-localization
 hg4idea
+org.jetbrains.plugins.flask
+Subversion
 CVS
+org.jetbrains.plugins.haml
