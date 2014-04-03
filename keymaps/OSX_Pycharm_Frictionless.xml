@@ -45,6 +45,7 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta alt V" />
   </action>
+  <action id="DecrementWindowWidth" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta J" />
   </action>
@@ -72,8 +73,10 @@
   </action>
   <action id="Exit" />
   <action id="ExtractMethod">
-    <keyboard-shortcut first-keystroke="meta alt M" />
-    <keyboard-shortcut first-keystroke="shift meta E" second-keystroke="M" />
+    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta M" />
+  </action>
+  <action id="ExtractSuperclass">
+    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta O" />
   </action>
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
@@ -121,10 +124,21 @@
   </action>
   <action id="HtmlTableCellNavigateLeft" />
   <action id="HtmlTableCellNavigateRight" />
+  <action id="IncrementWindowWidth" />
   <action id="Inline" />
   <action id="InsertLiveTemplate" />
-  <action id="IntroduceParameter" />
-  <action id="IntroduceVariable" />
+  <action id="IntroduceConstant">
+    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta J" />
+  </action>
+  <action id="IntroduceField">
+    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta U" />
+  </action>
+  <action id="IntroduceParameter">
+    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta P" />
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta K" />
+  </action>
   <action id="MethodHierarchy">
     <keyboard-shortcut first-keystroke="shift meta H" />
     <keyboard-shortcut first-keystroke="meta B" second-keystroke="M" />
@@ -173,9 +187,11 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta T" second-keystroke="meta U" />
   </action>
-  <action id="RenameElement">
+  <action id="RemoteHostView.Rename">
     <keyboard-shortcut first-keystroke="shift F6" />
-    <keyboard-shortcut first-keystroke="meta alt B" />
+  </action>
+  <action id="RenameFavoritesList">
+    <keyboard-shortcut first-keystroke="shift F6" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="shift meta U" />
@@ -183,11 +199,16 @@
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta alt U" />
   </action>
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="meta alt E" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta V" />
+  </action>
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift F6" />
   </action>
   <action id="ShowUmlDiagram" />
   <action id="ShowUmlDiagramPopup" />
