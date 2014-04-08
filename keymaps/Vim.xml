@@ -61,6 +61,10 @@
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta K" />
   </action>
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="meta alt OPEN_BRACKET" />
+    <keyboard-shortcut first-keystroke="control meta alt B" />
+  </action>
   <action id="EditorCutLineEnd">
     <keyboard-shortcut first-keystroke="control alt K" />
   </action>
@@ -69,6 +73,10 @@
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="meta E" />
+  </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="ESCAPE" />
+    <keyboard-shortcut first-keystroke="meta H" />
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="LEFT" />
@@ -83,6 +91,7 @@
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="HOME" />
     <keyboard-shortcut first-keystroke="meta LEFT" />
+    <keyboard-shortcut first-keystroke="control meta alt M" />
   </action>
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="shift meta alt K" />
@@ -106,11 +115,17 @@
   <action id="ExportToTextFile">
     <keyboard-shortcut first-keystroke="shift control O" />
   </action>
+  <action id="ExtractClass">
+    <keyboard-shortcut first-keystroke="meta C" second-keystroke="meta E" />
+  </action>
+  <action id="ExtractInterface">
+    <keyboard-shortcut first-keystroke="meta C" second-keystroke="meta C" />
+  </action>
   <action id="ExtractMethod">
-    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta M" />
+    <keyboard-shortcut first-keystroke="meta C" second-keystroke="meta M" />
   </action>
   <action id="ExtractSuperclass">
-    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta O" />
+    <keyboard-shortcut first-keystroke="meta C" second-keystroke="meta O" />
   </action>
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
@@ -168,16 +183,16 @@
   <action id="Inline" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceConstant">
-    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta J" />
+    <keyboard-shortcut first-keystroke="meta C" second-keystroke="meta J" />
   </action>
   <action id="IntroduceField">
-    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta U" />
+    <keyboard-shortcut first-keystroke="meta C" second-keystroke="meta U" />
   </action>
   <action id="IntroduceParameter">
-    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta P" />
+    <keyboard-shortcut first-keystroke="meta C" second-keystroke="meta L" />
   </action>
   <action id="IntroduceVariable">
-    <keyboard-shortcut first-keystroke="meta H" second-keystroke="meta K" />
+    <keyboard-shortcut first-keystroke="meta C" second-keystroke="meta K" />
   </action>
   <action id="MethodHierarchy">
     <keyboard-shortcut first-keystroke="shift meta H" />
