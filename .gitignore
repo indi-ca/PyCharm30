@@ -1,0 +1,15 @@
+*.pyc
+
+pycharm20.key
+pycharm30.key
+
+
+codestyles/
+colors/
+componentVersions/
+inspection/
+jdbc-drivers/
+options/
+port
+quicklists/
+tasks/
