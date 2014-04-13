@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="DimensionService">
+    <location key="OptionsEditor.0.0.1366.768" x="4" y="22" />
+    <location key="OptionsEditor.0.0.1920.1200" x="153" y="200" />
+    <location key="WELCOME_SCREEN.0.0.1920.1200" x="964" y="210" />
+    <size key="OptionsEditor.0.0.1366.768" width="1224" height="746" />
+  </component>
+  <component name="LafManager">
+    <laf class-name="idea.dark.laf.classname" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="log.debug.categories" value="" />
+    <property name="evlsprt3.3" value="16" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.initialConfigurationShown" value="true" />
+    <property name="installation.uid" value="3de1c78e-2906-4160-a628-7a583ce196c0" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+    <property name="file.colors.enable.non.project" value="494539" />
+    <property name="Non-Project Files" value="494539" />
+    <property name="OpenOrAttachDialog.OpenMode" value="attach" />
+    <property name="FindSplitterProportion" value="0.25" />
+  </component>
+</application>
+

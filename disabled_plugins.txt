@@ -1,0 +1,8 @@
+PerforceDirectPlugin
+org.jetbrains.plugins.localization
+org.jetbrains.plugins.python-localization
+hg4idea
+org.jetbrains.plugins.flask
+Subversion
+CVS
+org.jetbrains.plugins.haml

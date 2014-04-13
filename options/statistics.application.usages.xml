@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="module type">
+      <project id="safechat" values="PYTHON_MODULE" />
+    </group>
+    <group name="vcs">
+      <project id="safechat" values="hg4idea" />
+    </group>
+    <group name="file-type">
+      <project id="safechat" values="ReST,Perl,Jinja2,PATCH,ARCHIVE,XML,ActionScript,UNKNOWN,HTML,JavaScript,Cython,CSS,JSON,Locale,Native,Ini,Images,SQL,PLAIN_TEXT,Python,C++" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="safechat" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="safechat" values="Project,Project" />
+    </group>
+    <group name="py-interpreter">
+      <project id="safechat" values="Python 2.7.6,Python 2.7.6" />
+    </group>
+  </component>
+</application>
+
