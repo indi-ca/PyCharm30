@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
+  <component name="BaseRefactoringSettings">
+    <option name="SAFE_DELETE_WHEN_DELETE" value="false" />
+    <option name="SAFE_DELETE_SEARCH_IN_COMMENTS" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FILE" value="false" />
+    <option name="RENAME_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
+    <option name="MOVE_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
+  </component>
   <component name="CodeStyleSchemes">
     <option name="CURRENT_SCHEME_NAME" value="Default" />
   </component>
@@ -11,7 +18,7 @@
     <option name="FIND_ORIGIN" value="from_cursor" />
     <option name="FIND_SCOPE" value="global" />
     <option name="FIND_CUSTOM_SCOPE" />
-    <option name="CASE_SENSITIVE_SEARCH" value="false" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="false" />
     <option name="PRESERVE_CASE_REPLACE" value="false" />
     <option name="WHOLE_WORDS_ONLY" value="false" />
@@ -22,30 +29,107 @@
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="false" />
     <option name="WITH_SUBDIRECTORIES" value="true" />
     <option name="SEARCH_SCOPE" value="All Project Classes" />
-    <option name="FILE_MASK" />
+    <option name="FILE_MASK" value="*.py" />
     <option name="RECENT_FIND_STRINGS">
       <value>
-        <list size="4">
-          <item index="0" class="java.lang.String" itemvalue="csssele" />
-          <item index="1" class="java.lang.String" itemvalue="css" />
-          <item index="2" class="java.lang.String" itemvalue="get" />
-          <item index="3" class="java.lang.String" itemvalue="css_sel" />
+        <list size="30">
+          <item index="0" class="java.lang.String" itemvalue="session['viewer" />
+          <item index="1" class="java.lang.String" itemvalue="job" />
+          <item index="2" class="java.lang.String" itemvalue="LinkedInFeedShareChunk" />
+          <item index="3" class="java.lang.String" itemvalue="s" />
+          <item index="4" class="java.lang.String" itemvalue="get_clie" />
+          <item index="5" class="java.lang.String" itemvalue="get_cached_sender" />
+          <item index="6" class="java.lang.String" itemvalue="get_sender" />
+          <item index="7" class="java.lang.String" itemvalue="LinkedInCommentReadChunk" />
+          <item index="8" class="java.lang.String" itemvalue="feedsharechunk" />
+          <item index="9" class="java.lang.String" itemvalue="feedsharechun" />
+          <item index="10" class="java.lang.String" itemvalue="map" />
+          <item index="11" class="java.lang.String" itemvalue="container" />
+          <item index="12" class="java.lang.String" itemvalue="comment_chunk_class" />
+          <item index="13" class="java.lang.String" itemvalue="15ee1e1c8bfc4b" />
+          <item index="14" class="java.lang.String" itemvalue="indika" />
+          <item index="15" class="java.lang.String" itemvalue="LinkedInDynamicNewsFeedChunk" />
+          <item index="16" class="java.lang.String" itemvalue="['201107340'] * 18" />
+          <item index="17" class="java.lang.String" itemvalue="_client_class" />
+          <item index="18" class="java.lang.String" itemvalue="cached" />
+          <item index="19" class="java.lang.String" itemvalue="warm_cache" />
+          <item index="20" class="java.lang.String" itemvalue="cache" />
+          <item index="21" class="java.lang.String" itemvalue="block_text" />
+          <item index="22" class="java.lang.String" itemvalue="apply_container_action" />
+          <item index="23" class="java.lang.String" itemvalue="cookies" />
+          <item index="24" class="java.lang.String" itemvalue="cache_sender" />
+          <item index="25" class="java.lang.String" itemvalue="get_client" />
+          <item index="26" class="java.lang.String" itemvalue="application" />
+          <item index="27" class="java.lang.String" itemvalue="senders" />
+          <item index="28" class="java.lang.String" itemvalue="get_message_id" />
+          <item index="29" class="java.lang.String" itemvalue="recipients" />
         </list>
       </value>
     </option>
     <option name="RECENT_REPLACE_STRINGS">
       <value>
-        <list size="0" />
+        <list size="30">
+          <item index="0" class="java.lang.String" itemvalue="lxml_text_content" />
+          <item index="1" class="java.lang.String" itemvalue="FilterICAPS" />
+          <item index="2" class="java.lang.String" itemvalue="Introspect" />
+          <item index="3" class="java.lang.String" itemvalue="edit_comment" />
+          <item index="4" class="java.lang.String" itemvalue="build_xml()" />
+          <item index="5" class="java.lang.String" itemvalue="build_xml" />
+          <item index="6" class="java.lang.String" itemvalue="CSSPlay" />
+          <item index="7" class="java.lang.String" itemvalue="allow" />
+          <item index="8" class="java.lang.String" itemvalue="create_multi_tenant_block_response" />
+          <item index="9" class="java.lang.String" itemvalue="userlog.info" />
+          <item index="10" class="java.lang.String" itemvalue="IPAddresses" />
+          <item index="11" class="java.lang.String" itemvalue="nbb-dev-172813" />
+          <item index="12" class="java.lang.String" itemvalue="value" />
+          <item index="13" class="java.lang.String" itemvalue="self.shutdown_deferred" />
+          <item index="14" class="java.lang.String" itemvalue="userlog.critica" />
+          <item index="15" class="java.lang.String" itemvalue="critical(&quot;indika" />
+          <item index="16" class="java.lang.String" itemvalue="userlog.critical" />
+          <item index="17" class="java.lang.String" itemvalue="msg2" />
+          <item index="18" class="java.lang.String" itemvalue="msg3" />
+          <item index="19" class="java.lang.String" itemvalue="gConItems" />
+          <item index="20" class="java.lang.String" itemvalue="'" />
+          <item index="21" class="java.lang.String" itemvalue="image_bytes_and_filename_cache_key" />
+          <item index="22" class="java.lang.String" itemvalue="is_two_way" />
+          <item index="23" class="java.lang.String" itemvalue="tid" />
+          <item index="24" class="java.lang.String" itemvalue="mid" />
+          <item index="25" class="java.lang.String" itemvalue="hashi" />
+          <item index="26" class="java.lang.String" itemvalue="FacebookSinglePageNewsJSContainer" />
+          <item index="27" class="java.lang.String" itemvalue="recv" />
+          <item index="28" class="java.lang.String" itemvalue="nbwebscan.facebook.handlers" />
+          <item index="29" class="java.lang.String" itemvalue="LinkedInDynamicCommentsFeedChunk" />
+        </list>
       </value>
     </option>
     <option name="RECENT_DIR_STRINGS">
       <value>
-        <list size="0" />
+        <list size="19">
+          <item index="0" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat/nbwebscan/src/nbwebscan" />
+          <item index="1" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_current/nbwebscan/src/nbwebscan/yahoo" />
+          <item index="2" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_current/nbwebscan/src/nbwebscan/aim" />
+          <item index="3" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/netbox/mslync" />
+          <item index="4" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_archiving/nbwebscan/src/nbwebscan/archive" />
+          <item index="5" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_facebook/nbwebscan/src" />
+          <item index="6" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_facebook/nbwebscan/src/nbwebscan" />
+          <item index="7" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_facebook/nbwebscan/src/nbwebscan/facebook" />
+          <item index="8" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_linkedin_all/nbwebscan/src/nbwebscan/linkedin" />
+          <item index="9" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_tenant/nbwebscan/src/nbwebscan" />
+          <item index="10" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_linkedin_unit/nbwebscan/src/nbwebscan" />
+          <item index="11" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_default/nbwebscan/src/nbwebscan/twitter" />
+          <item index="12" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_default/nbarchive/src/nbarchive" />
+          <item index="13" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_default/nbarchive" />
+          <item index="14" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_default/nbarchive/src/nbarchive/dispatchers" />
+          <item index="15" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_default/nbarchive/src/api" />
+          <item index="16" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/netbox/cloudcte/src/cloudcte" />
+          <item index="17" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_default/nbwebscan/src/nbwebscan" />
+          <item index="18" class="java.lang.String" itemvalue="$USER_HOME$/dev/box/safechat_default/nbwebscan/src/nbwebscan/facebook" />
+        </list>
       </value>
     </option>
     <option name="RECENT_FILE_MASKS">
       <value>
-        <list size="10">
+        <list size="11">
           <item index="0" class="java.lang.String" itemvalue="*.properties" />
           <item index="1" class="java.lang.String" itemvalue="*.html" />
           <item index="2" class="java.lang.String" itemvalue="*.jsp" />
@@ -55,7 +139,8 @@
           <item index="6" class="java.lang.String" itemvalue="*.as" />
           <item index="7" class="java.lang.String" itemvalue="*.css" />
           <item index="8" class="java.lang.String" itemvalue="*.mxml" />
-          <item index="9" class="java.lang.String" itemvalue="*.py" />
+          <item index="9" class="java.lang.String" itemvalue="test*.py" />
+          <item index="10" class="java.lang.String" itemvalue="*.py" />
         </list>
       </value>
     </option>
@@ -77,19 +162,56 @@
       <set />
     </option>
     <option name="PROXY_EXCEPTIONS" value="" />
+    <option name="USE_PAC_URL" value="false" />
+    <option name="PAC_URL" value="" />
+  </component>
+  <component name="PyCodeInsightSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="true" />
+    <option name="RENAME_SEARCH_NON_CODE_FOR_CLASS" value="true" />
+    <option name="RENAME_PARAMETERS_IN_HIERARCHY" value="false" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/.virtualenvs/safechat/bin/python" value="true" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="$USER_HOME$/.virtualenvs/safechat/bin/python" value="true" />
+      </map>
+    </option>
+    <option name="SDK_TO_ATTEST">
+      <map>
+        <entry key="$USER_HOME$/.virtualenvs/safechat/bin/python" value="false" />
+      </map>
+    </option>
   </component>
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/dev/box/safechat" />
+        <option value="$USER_HOME$/dev/box/safechat_default" />
+        <option value="$USER_HOME$/dev/box/safechat_synced" />
       </list>
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/dev/box/safechat" />
+        <option value="$USER_HOME$/dev/box/safechat_default" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/dev/box/safechat" />
+    <option name="names">
+      <map>
+        <entry key="$USER_HOME$/dev/box/netbox/cloudconfig" value="cloudconfig, cloudcte..." />
+        <entry key="$USER_HOME$/dev/box/safechat_cte-send" value="safechat_cte-send, cloudcte" />
+        <entry key="$USER_HOME$/dev/box/safechat_current" value="mslync, safechat_current..." />
+        <entry key="$USER_HOME$/dev/box/safechat_default" value="cloudcte, safechat_default..." />
+        <entry key="$USER_HOME$/dev/box/safechat_facebook" value="safechat_facebook, bloomberg" />
+        <entry key="$USER_HOME$/dev/box/safechat_linkedin_all" value="safechat_linkedin_all, sandbox" />
+        <entry key="$USER_HOME$/dev/box/safechat_lync" value="safechat_lync, mslync" />
+        <entry key="$USER_HOME$/dev/box/safechat_lync_archiving" value="safechat_lync_archiving, bloomberg" />
+      </map>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/dev/box/safechat_default" />
   </component>
   <component name="Registry">
     <entry key="ide.firstStartup" value="false" />
@@ -102,11 +224,13 @@
       <option name="FOREGROUND" value="a8c023" />
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+      <option name="EFFECT_TYPE" value="0" />
     </pattern>
     <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
       <option name="FOREGROUND" value="a8c023" />
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+      <option name="EFFECT_TYPE" value="0" />
     </pattern>
   </component>
   <component name="UpdatesConfigurable">
@@ -117,15 +241,18 @@
     </option>
     <option name="myKnownUpdateChannels">
       <value>
-        <list size="8">
+        <list size="11">
           <item index="0" class="java.lang.String" itemvalue="pycharm" />
           <item index="1" class="java.lang.String" itemvalue="pycharm1EAP" />
           <item index="2" class="java.lang.String" itemvalue="pycharm10" />
           <item index="3" class="java.lang.String" itemvalue="pycharm2EAP" />
           <item index="4" class="java.lang.String" itemvalue="pycharm2Beta" />
           <item index="5" class="java.lang.String" itemvalue="pycharm2" />
-          <item index="6" class="java.lang.String" itemvalue="pycharm3EAP" />
+          <item index="6" class="java.lang.String" itemvalue="pycharm3Beta" />
           <item index="7" class="java.lang.String" itemvalue="pycharm3" />
+          <item index="8" class="java.lang.String" itemvalue="pycharm4EAP" />
+          <item index="9" class="java.lang.String" itemvalue="pycharm4Beta" />
+          <item index="10" class="java.lang.String" itemvalue="pycharm4" />
         </list>
       </value>
     </option>
@@ -135,8 +262,8 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1397388220279" />
-    <option name="LAST_BUILD_CHECKED" value="PY-133.1229" />
+    <option name="LAST_TIME_CHECKED" value="1416525781113" />
+    <option name="LAST_BUILD_CHECKED" value="PY-135.1057" />
     <option name="UPDATE_CHANNEL_TYPE" value="release" />
   </component>
   <component name="XDebuggerSettings">

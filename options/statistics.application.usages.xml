@@ -1,24 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="StatisticsApplicationUsages">
-    <group name="module type">
-      <project id="safechat" values="PYTHON_MODULE" />
-    </group>
     <group name="vcs">
-      <project id="safechat" values="hg4idea" />
+      <project id="safechat_link_subgroups" values="Git" />
+      <project id="safechat_lync" values="Git" />
+      <project id="safechat" values="Git" />
+      <project id="safechat_facebook" values="Git" />
+      <project id="safechat_linkedin_unit" values="Git" />
+      <project id="safechat_tenant" values="Git" />
+      <project id="safechat_lync_archiving" values="Git" />
+      <project id="safechat_default" values="hg4idea" />
+      <project id="safechat_linkedin_all" values="Git" />
+      <project id="safechat_archiving" values="Git" />
+      <project id="safechat_current" values="Git" />
+      <project id="cloudconfig" values="Git" />
+      <project id="safechat_twitterdirect" values="Git" />
+      <project id="safechat_synced" values="hg4idea" />
+      <project id="icap_test" values="Git" />
+      <project id="safechat_cte-send" values="Git" />
+      <project id="cloudcte" values="Git" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="safechat_facebook" values="PythonConfigurationType" />
+    </group>
+    <group name="module type">
+      <project id="safechat_link_subgroups" values="PYTHON_MODULE" />
+      <project id="safechat_lync" values="PYTHON_MODULE" />
+      <project id="safechat" values="PYTHON_MODULE" />
+      <project id="safechat_facebook" values="PYTHON_MODULE" />
+      <project id="safechat_linkedin_unit" values="PYTHON_MODULE" />
+      <project id="safechat_tenant" values="PYTHON_MODULE" />
+      <project id="safechat_lync_archiving" values="PYTHON_MODULE" />
+      <project id="sandbox" values="PYTHON_MODULE" />
+      <project id="safechat_default" values="PYTHON_MODULE" />
+      <project id="safechat_linkedin_all" values="PYTHON_MODULE" />
+      <project id="safechat_archiving" values="PYTHON_MODULE" />
+      <project id="safechat_current" values="PYTHON_MODULE" />
+      <project id="cloudconfig" values="PYTHON_MODULE" />
+      <project id="safechat_twitterdirect" values="PYTHON_MODULE" />
+      <project id="safechat_synced" values="PYTHON_MODULE" />
+      <project id="src" values="PYTHON_MODULE" />
+      <project id="icap_test" values="PYTHON_MODULE" />
+      <project id="nbicap" values="PYTHON_MODULE" />
+      <project id="safechat_cte-send" values="PYTHON_MODULE" />
+      <project id="cloudcte" values="PYTHON_MODULE" />
+      <project id="command_line" values="PYTHON_MODULE" />
     </group>
     <group name="file-type">
-      <project id="safechat" values="ReST,Perl,Jinja2,PATCH,ARCHIVE,XML,ActionScript,UNKNOWN,HTML,JavaScript,Cython,CSS,JSON,Locale,Native,Ini,Images,SQL,PLAIN_TEXT,Python,C++" />
+      <project id="safechat_link_subgroups" values="UNKNOWN,HTML,Ini,Jinja2,Images,XML,Python,PLAIN_TEXT,Native,JSON" />
+      <project id="safechat_lync" values="UNKNOWN,XML,Python" />
+      <project id="safechat" values="Images,UNKNOWN,Python,PLAIN_TEXT,JSON,Ini,HTML,Native,Jinja2,XML" />
+      <project id="safechat_facebook" values="Native,Python,HTML,UNKNOWN,JSON,Jinja2,Images,PLAIN_TEXT,XML" />
+      <project id="safechat_linkedin_unit" values="Python,UNKNOWN,XML,HTML,Native,JSON,Images,Jinja2,PLAIN_TEXT" />
+      <project id="safechat_tenant" values="Jinja2,PLAIN_TEXT,XML,UNKNOWN,JSON,HTML,Python,Native,Images" />
+      <project id="safechat_lync_archiving" values="PLAIN_TEXT,JSON,Python,Ini,UNKNOWN,HTML,Native,Jinja2,XML,Images" />
+      <project id="sandbox" values="JSON,HTML,UNKNOWN,Python,XML,PLAIN_TEXT" />
+      <project id="safechat_default" values="Images,Jinja2,XML,Native,PLAIN_TEXT,Python,UNKNOWN,HTML,JSON" />
+      <project id="safechat_linkedin_all" values="Jinja2,Images,PLAIN_TEXT,HTML,Python,Native,JSON,XML,UNKNOWN" />
+      <project id="safechat_archiving" values="HTML,JSON,XML,PLAIN_TEXT,UNKNOWN,Native,Jinja2,Images,Python" />
+      <project id="safechat_current" values="PLAIN_TEXT,Python,Images,YAML,JSON,Native,UNKNOWN,XML,Jinja2,HTML" />
+      <project id="cloudconfig" values="Native,Jinja2,PLAIN_TEXT,UNKNOWN,XML,JSON,Images,HTML,Python" />
+      <project id="safechat_twitterdirect" values="Jinja2,Python,JSON,Native,HTML,PLAIN_TEXT,Ini,XML,UNKNOWN,Images" />
+      <project id="safechat_synced" values="UNKNOWN,Python,HTML,XML,JSON,PLAIN_TEXT,Ini,Images,Jinja2,Native" />
+      <project id="src" values="Native,Python,Jinja2,JSON,PLAIN_TEXT,Images,HTML,UNKNOWN,XML" />
+      <project id="icap_test" values="PLAIN_TEXT,XML,Python,UNKNOWN" />
+      <project id="nbicap" values="XML,Python,UNKNOWN" />
+      <project id="safechat_cte-send" values="UNKNOWN,Native,PLAIN_TEXT,JSON,Jinja2,HTML,Images,Python,XML,Ini" />
+      <project id="cloudcte" values="XML,Python,UNKNOWN" />
+      <project id="command_line" values="UNKNOWN,Python,XML,JSON,PLAIN_TEXT" />
     </group>
-    <group name="JavaScript versions">
-      <project id="safechat" values="DEFAULT" />
+    <group name="run-configuration-type-temp">
+      <project id="safechat_linkedin_all" values="tests.Unittests" />
+      <project id="safechat_current" values="PythonConfigurationType" />
     </group>
     <group name="javaScript Scope Usages">
+      <project id="safechat_link_subgroups" values="Project,Project" />
+      <project id="safechat_lync" values="Project,Project" />
       <project id="safechat" values="Project,Project" />
+      <project id="safechat_facebook" values="Project,Project" />
+      <project id="safechat_linkedin_unit" values="Project,Project" />
+      <project id="safechat_tenant" values="Project,Project" />
+      <project id="safechat_lync_archiving" values="Project,Project" />
+      <project id="sandbox" values="Project,Project" />
+      <project id="safechat_default" values="Project,Project" />
+      <project id="safechat_linkedin_all" values="Project,Project" />
+      <project id="safechat_archiving" values="Project,Project" />
+      <project id="safechat_current" values="Project,Project" />
+      <project id="cloudconfig" values="Project,Project" />
+      <project id="safechat_twitterdirect" values="Project,Project" />
+      <project id="safechat_synced" values="Project,Project" />
+      <project id="src" values="Project,Project" />
+      <project id="icap_test" values="Project,Project" />
+      <project id="nbicap" values="Project,Project" />
+      <project id="safechat_cte-send" values="Project,Project" />
+      <project id="cloudcte" values="Project,Project" />
+      <project id="command_line" values="Project,Project" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="safechat_link_subgroups" values="DEFAULT" />
+      <project id="safechat_lync" values="DEFAULT" />
+      <project id="safechat" values="DEFAULT" />
+      <project id="safechat_facebook" values="DEFAULT" />
+      <project id="safechat_linkedin_unit" values="DEFAULT" />
+      <project id="safechat_tenant" values="DEFAULT" />
+      <project id="safechat_lync_archiving" values="DEFAULT" />
+      <project id="sandbox" values="DEFAULT" />
+      <project id="safechat_default" values="DEFAULT" />
+      <project id="safechat_linkedin_all" values="DEFAULT" />
+      <project id="safechat_archiving" values="DEFAULT" />
+      <project id="safechat_current" values="DEFAULT" />
+      <project id="cloudconfig" values="DEFAULT" />
+      <project id="safechat_twitterdirect" values="DEFAULT" />
+      <project id="safechat_synced" values="DEFAULT" />
+      <project id="src" values="DEFAULT" />
+      <project id="icap_test" values="DEFAULT" />
+      <project id="nbicap" values="DEFAULT" />
+      <project id="safechat_cte-send" values="DEFAULT" />
+      <project id="cloudcte" values="DEFAULT" />
+      <project id="command_line" values="DEFAULT" />
     </group>
     <group name="py-interpreter">
-      <project id="safechat" values="Python 2.7.6,Python 2.7.6" />
+      <project id="safechat_link_subgroups" values="Python 2.7.5" />
+      <project id="safechat_lync" values="Python 2.7.5,Python 2.7.5" />
+      <project id="safechat" values="Python 2.7.5" />
+      <project id="safechat_facebook" values="Python 2.7.5,Python 2.7.5" />
+      <project id="safechat_linkedin_unit" values="Python 2.7.5" />
+      <project id="safechat_tenant" values="Python 2.7.6" />
+      <project id="safechat_lync_archiving" values="Python 2.7.5,Python 2.7.5" />
+      <project id="sandbox" values="Python 2.7.5" />
+      <project id="safechat_default" values="Python 2.7.5,Python 2.7.5,Python 2.7.5,Python 2.7.5,Python 2.7.5" />
+      <project id="safechat_linkedin_all" values="Python 2.7.6,Python 2.7.5" />
+      <project id="safechat_archiving" values="Python 2.7.5" />
+      <project id="safechat_current" values="Python 2.7.5,Python 2.7.5,Python 2.7.5" />
+      <project id="cloudconfig" values="Python 2.7.5,Python 2.7.5,Python 2.7.5,Python 2.7.5" />
+      <project id="safechat_twitterdirect" values="Python 2.7.5" />
+      <project id="safechat_synced" values="Python 2.7.5" />
+      <project id="src" values="Python 2.7.5" />
+      <project id="icap_test" values="Python 2.7.5" />
+      <project id="nbicap" values="Python 2.7.5" />
+      <project id="safechat_cte-send" values="Python 2.7.5,Python 2.7.5" />
+      <project id="cloudcte" values="Python 2.7.5" />
+      <project id="command_line" values="Python 2.7.5" />
     </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="13" />
+      <entry feature="execute.PythonConfigurationType.Debug" count="6" />
+      <entry feature="execute.PythonConfigurationType.Run" count="27" />
+      <entry feature="execute.tests.Run" count="20" />
+      <entry feature="ide.settings.General" count="1" />
+      <entry feature="ide.settings.Live_Templates" count="23" />
+      <entry feature="ide.settings.Project_Interpreter" count="3" />
+      <entry feature="ide.settings.Project_Structure" count="14" />
+      <entry feature="ide.settings.Version_Control" count="1" />
+      <entry feature="idea.caches.invalidated" count="1" />
+      <entry feature="ideaapp.started" count="98" />
+      <entry feature="uml.ShowDiagram.Python" count="1" />
+      <entry feature="uml.ShowDiagram.Python.popup" count="1" />
+    </counts>
   </component>
 </application>
 

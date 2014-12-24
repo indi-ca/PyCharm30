@@ -12,9 +12,16 @@
     <notification groupId="Mercurial Important Messages" displayType="STICKY_BALLOON" />
     <notification groupId="FindInPath" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Skeletons" />
+    <notification groupId="Packaging" />
+    <notification groupId="Update Checker" displayType="STICKY_BALLOON" />
+    <notification groupId="Reformat Code" />
     <toolWindow group="Git Messages" />
     <toolWindow group="Mercurial Messages" />
     <toolWindow group="FindInPath" />
+    <toolWindow group="Find in Path" />
+    <toolWindow group="Debugger messages" />
+    <toolWindow group="Vcs Messages" />
+    <toolWindow group="Common Version Control Messages" />
   </component>
 </application>
 

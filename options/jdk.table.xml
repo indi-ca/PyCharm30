@@ -20,6 +20,7 @@
             <root type="simple" url="file:///Library/Python/2.7/site-packages" />
             <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" />
             <root type="simple" url="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/596071422" />
+            <root type="simple" url="file://$USER_HOME$/dev/box/internal/nb-devtools/modules" />
           </root>
         </classPath>
         <sourcePath>
@@ -52,7 +53,7 @@
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/dev/box/safechat" />
+      <additional />
     </jdk>
   </component>
 </application>

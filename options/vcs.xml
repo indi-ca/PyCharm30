@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
+  <component name="Git.Application.Settings">
+    <option name="myPathToGit" value="/usr/bin/git" />
+    <option name="SSH_EXECUTABLE" value="IDEA_SSH" />
+  </component>
   <component name="HgGlobalSettings">
     <option name="myHgExecutable" value="/usr/local/bin/hg" />
+    <option name="myRememberedUserNames">
+      <map>
+        <entry key="hg.nb/nbx/safechat" value="ipiyasena" />
+      </map>
+    </option>
+  </component>
+  <component name="HgRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="https://hg.nb/nbx/safechat" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="$USER_HOME$/dev/box" />
   </component>
 </application>
 

@@ -14,10 +14,6 @@
         <option value="dom.elementClass" />
         <option value="dom.namespaceKey" />
         <option value="Stylus.variables" />
-        <option value="Scss.mixin" />
-        <option value="Scss.function" />
-        <option value="Scss.placeholder.selector" />
-        <option value="Scss.variable" />
         <option value="Less.variables" />
         <option value="Less.mixins" />
         <option value="ini.property.key" />

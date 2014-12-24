@@ -12,13 +12,13 @@
       <option name="XML" value="false" />
       <option name="Python" value="true" />
       <option name="Django" value="false" />
+      <option name="SQL" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -34,17 +34,17 @@
       <option name="XML" value="false" />
       <option name="Python" value="true" />
       <option name="Django" value="false" />
+      <option name="SQL" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="SQL" value="false" />
-      <option name="CoffeeScript" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="logv" value="logger.debug('$string$ for: {0}'.format($args$))&#10;$END$" description="Log a variable" toReformat="true" toShortenFQNames="true">
+  <template name="logv" value="logger.info('$string$ for: {0}'.format($args$))&#10;$END$" description="Log a variable" toReformat="true" toShortenFQNames="true">
     <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -54,13 +54,102 @@
       <option name="XML" value="false" />
       <option name="Python" value="true" />
       <option name="Django" value="false" />
+      <option name="SQL" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ulog" value="userlog.info(&quot;indika: $arg$: %s&quot;, $arg2$)&#10;$END$" description="Log a variable using NBLog" toReformat="false" toShortenFQNames="true">
+    <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="arg2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="Python" value="true" />
+      <option name="Django" value="false" />
       <option name="SQL" value="false" />
-      <option name="CoffeeScript" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="uprint" value="print &quot;indika: $arg2$: {0}&quot;.format($arg$)&#10;$END$" description="A debug print" toReformat="false" toShortenFQNames="true">
+    <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="arg2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="Python" value="true" />
+      <option name="Django" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="logq" value="import q;q($arg$)" description="q log" toReformat="false" toShortenFQNames="true">
+    <variable name="arg" expression="" defaultValue="''" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="userlog" value="from nblog.userlog import UserLogger&#10;userlog = UserLogger(__name__)" description="Start user logging" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ulogel" value="import lxml.html&#10;userlog.info(&quot;indika: $arg$ root_element: %s&quot;,&#10;             lxml.html.tostring(self.root_element, pretty_print=True))&#10;&#10;$END$" description="Log a variable using NBLog" toReformat="false" toShortenFQNames="true">
+    <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="Python" value="true" />
+      <option name="Django" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="safechat_test" value="        {&#10;            'id': 'The sent mail folder in the inbox',&#10;            'icap_requests': [&#10;                'icap_1413872968.68250_6d5aada3a5a54c8e819ac7faf63bce32_reqmod_0IfACN.request',&#10;                'icap_1413872972.15446_6d5aada3a5a54c8e819ac7faf63bce32_respmod_MrnJu_.request',&#10;            ],&#10;            'expected_folder_class': LinkedInReadMessagesFolder,&#10;            'expected_num_chunk_classes': {&#10;                'ForcedDiskMessageChunk': 1,&#10;                'LinkedInMessageHtmlDocumentChunk': 1,&#10;                'LinkedInInboxMessageChunk': 1,&#10;            },&#10;            'expected_num_document_classes': {LinkedInInboxMessageDocument: 1},&#10;            'expected_document_bodies': [&#10;                '22222222222222222222',&#10;            ],&#10;            'expected_document_subjects': [&#10;                '1111111111',&#10;            ],&#10;            'expected_sent_times': [&#10;                DateTimeFrom('2014-09-22 01:05:41.00'),&#10;            ],&#10;            'block_text': 'clouds collide',&#10;            'block_message': BLOCK_MESSAGE,&#10;            'expected_sender_ids': ['201124078'] * 1,&#10;            'expected_recipient_ids': [None] * 1,&#10;        }," description="Safechat Unit Test" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="Python" value="true" />
+      <option name="Django" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>

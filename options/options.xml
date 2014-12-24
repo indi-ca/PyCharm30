@@ -1,10 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="DimensionService">
-    <location key="OptionsEditor.0.0.1366.768" x="4" y="22" />
+    <location key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1920.1200" x="4" y="22" />
+    <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.0.0.1920.1200" x="629" y="475" />
+    <location key="FileChooserDialogImpl.0.0.1366.768" x="384" y="142" />
+    <location key="WELCOME_SCREEN.0.0.1920.1200" x="959" y="232" />
     <location key="OptionsEditor.0.0.1920.1200" x="153" y="200" />
-    <location key="WELCOME_SCREEN.0.0.1920.1200" x="964" y="210" />
+    <location key="OptionsEditor.0.0.1366.768" x="4" y="22" />
+    <location key="findTextDialog.0.0.1920.1200" x="1239" y="339" />
+    <location key="WELCOME_SCREEN.0.0.1366.768" x="683" y="285" />
+    <location key="FileChooserDialogImpl.0.0.1920.1200" x="660" y="370" />
+    <location key="dock-window-1.0.0.1920.1200" x="853" y="38" />
+    <location key="DiffWindow.0.0.1920.1200" x="100" y="118" />
+    <location key="VCS.FileHistoryDialog.0.0.1920.1200" x="8" y="95" />
+    <location key="git4idea.ui.branch.GitCompareBranchesDialog.0.0.1920.1200" x="416" y="131" />
+    <location key="vcs.readOnlyHandler.ReadOnlyStatusDialog.0.0.1920.1200" x="258" y="464" />
+    <location key="com.intellij.history.integration.ui.views.SelectionHistoryDialog.0.0.1920.1200" x="4" y="22" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1920.1200" x="690" y="241" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1200" x="619" y="416" />
+    <location key="#digest.0.0.1920.1200" x="697" y="297" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1200" x="422" y="272" />
+    <location key="findTextDialog.0.0.1920.1080" x="683" y="315" />
+    <location key="findTextDialog.0.0.1366.768" x="475" y="159" />
+    <location key="DiffWindow.0.0.1366.768" x="100" y="122" />
+    <location key="dock-window-1.0.0.1366.768" x="499" y="22" />
+    <location key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0.0.1920.1200" x="100" y="122" />
+    <location key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1366.768" x="4" y="22" />
+    <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.1920.1200" x="722" y="327" />
+    <location key="com.intellij.history.integration.ui.views.SelectionHistoryDialog.0.0.1366.768" x="100" y="122" />
+    <location key="com.intellij.history.integration.ui.views.SelectionHistoryDialog.0.0.1920.1080" x="100" y="122" />
+    <location key="refactoring.ChangeSignatureDialog.0.0.1920.1200" x="722" y="259" />
+    <location key="OptionsEditor.0.0.1920.1080" x="348" y="126" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="960" y="285" />
+    <location key="com.intellij.ide.passwordSafe.impl.providers.masterKey.ResetPasswordDialog.0.0.1920.1200" x="779" y="421" />
+    <location key="HgCloneDialog.0.0.1920.1200" x="766" y="411" />
+    <location key="com.intellij.ide.passwordSafe.impl.providers.masterKey.MasterPasswordDialog.0.0.1920.1200" x="667" y="417" />
+    <location key="org.zmlx.hg4idea.ui.HgBookmarkDialog.0.0.1920.1200" x="760" y="531" />
+    <location key="org.zmlx.hg4idea.ui.HgPullDialog.0.0.1920.1200" x="840" y="546" />
+    <location key="RollbackChangesDialog.0.0.1920.1200" x="747" y="342" />
+    <location key="CommitChangelistDialog2.0.0.1920.1200" x="614" y="320" />
+    <location key="VCS.FileHistoryDialog.0.0.1366.768" x="0" y="22" />
+    <location key="replaceTextDialog.0.0.1920.1200" x="751" y="335" />
+    <location key="ReplaceDuplicatesPrompt.0.0.1920.1200" x="648" y="533" />
+    <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1920.1200" width="1916" height="1174" />
     <size key="OptionsEditor.0.0.1366.768" width="1224" height="746" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1200" width="1675" height="1056" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1200" width="1675" height="1056" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1200" width="1675" height="1056" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1200" width="1675" height="1056" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1222" height="324" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1222" height="324" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1222" height="324" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1222" height="324" />
+    <size key="OptionsEditor.0.0.1920.1200" width="1478" height="846" />
+    <size key="dock-window-1.0.0.1920.1200" width="715" height="1009" />
+    <size key="DiffWindow.0.0.1920.1200" width="1675" height="1078" />
+    <size key="VCS.FileHistoryDialog.0.0.1920.1200" width="1650" height="1068" />
+    <size key="com.intellij.history.integration.ui.views.SelectionHistoryDialog.0.0.1920.1200" width="1916" height="1178" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1200" width="1916" height="419" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1200" width="1916" height="419" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1200" width="1916" height="419" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1200" width="1916" height="419" />
+    <size key="javadoc.popup.0.0.1920.1200" width="600" height="419" />
+    <size key="DiffWindow.0.0.1366.768" width="1166" height="546" />
+    <size key="dock-window-1.0.0.1366.768" width="683" height="746" />
+    <size key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0.0.1920.1200" width="1720" height="978" />
+    <size key="javadoc.popup.0.0.1366.768" width="500" height="124" />
+    <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1366.768" width="1362" height="742" />
+    <size key="com.intellij.history.integration.ui.views.SelectionHistoryDialog.0.0.1366.768" width="1166" height="546" />
+    <size key="com.intellij.history.integration.ui.views.SelectionHistoryDialog.0.0.1920.1080" width="1720" height="858" />
+    <size key="com.intellij.ide.passwordSafe.impl.providers.masterKey.ResetPasswordDialog.0.0.1920.1200" width="431" height="148" />
+    <size key="HgCloneDialog.0.0.1920.1200" width="448" height="168" />
+    <size key="VCS.FileHistoryDialog.0.0.1366.768" width="1034" height="742" />
+    <size key="Vcs.CompareWithSelectedRevision.Popup.0.0.1920.1200" width="300" height="300" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="6" />
+    <extendedState key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" state="0" />
+    <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" state="300" />
+    <extendedState key="dock-window-1" state="0" />
+    <extendedState key="DiffWindow" state="0" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.1" state="500" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.0" state="206" />
+    <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" state="0" />
+    <extendedState key="com.intellij.history.integration.ui.views.SelectionHistoryDialog.1" state="500" />
+    <extendedState key="com.intellij.history.integration.ui.views.SelectionHistoryDialog.0" state="300" />
   </component>
   <component name="LafManager">
     <laf class-name="idea.dark.laf.classname" />
@@ -26,6 +104,30 @@
     <property name="Non-Project Files" value="494539" />
     <property name="OpenOrAttachDialog.OpenMode" value="attach" />
     <property name="FindSplitterProportion" value="0.25" />
+    <property name="LayoutCode.optimizeImports" value="false" />
+    <property name="LayoutCode.processChangedText" value="false" />
+    <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
+    <property name="evlsprt.3" value="145ddec85d0" />
+    <property name="evlsprt2.3" value="1458c194769" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/dev/box/netbox&#10;/Users/indika/dev/box/safechat_default/nbwebscan/src&#10;/Users/indika/.virtualenvs/safechat/bin/python&#10;/Users/indika/dev/box/safechat_linkedin_unit/nbwebscan/src&#10;/Users/indika/dev/box/netbox/cloudconfig/src&#10;/Users/indika/dev/box/netbox/cloudconfig/schemas&#10;/Users/indika/dev/box/safechat_tenant/nbwebscan/src&#10;/Users/indika/dev/box/safechat_linkedin_all/nbwebscan/src&#10;/Users/indika/dev/box/safechat_facebook/nbwebscan/src&#10;/Users/indika/dev/box/safechat_archiving/nbwebscan/src&#10;/Users/indika/dev/box/safechat_archiving/nbwebscan/src/nbwebscan&#10;/Users/indika/dev/box/safechat_current/nbwebscan/src&#10;/Users/indika/dev/box/netbox/nbshared&#10;/Users/indika/dev/box/netbox/nbcache&#10;/Users/indika/dev/box/safechat_current/nbwebscan/src/nbwebscan" />
+    <property name="KEYMAP" value="live" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="1" />
+    <property name="FileTemplates.CurrentTab" value="Templates" />
+    <property name="FileTemplates.SelectedTemplate" value="Html" />
+    <property name="com.intellij.openapi.editor.actions.MultiplePasteAction$1.splitter" value="0.3" />
+    <property name="ExpandEnvironmentPanel" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="RunConfigurable.dividerProportion" value="0.3" />
+    <property name="sm_test_statistics_table_columnsWidth0" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder0" value="0" />
+    <property name="sm_test_statistics_table_columnsWidth1" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder1" value="1" />
+    <property name="sm_test_statistics_table_columnsWidth2" value="75" />
+    <property name="sm_test_statistics_table_columnsOrder2" value="2" />
+    <property name="null.splitter" value="0.3" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.5" />
+    <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
   </component>
 </application>
 
